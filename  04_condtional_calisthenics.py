@@ -17,4 +17,9 @@ if "banna" in fruit:
     print("yes")
 else:
     print("no")
-#Exercise4
+#Exercise5
+if x < 0:
+    print("error")
+#Exercise6
+if not ("s1 + s2 > s3" and "s1 + s3 > s2" and "s2 + s3 > s1"):
+    
