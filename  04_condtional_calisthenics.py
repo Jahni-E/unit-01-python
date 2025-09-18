@@ -18,8 +18,13 @@ if "banna" in fruit:
 else:
     print("no")
 #Exercise5
-if x < 0:
-    print("error")
+weight = input("weight:")
+zone = input("zone:")
+if weight < 0:
+    print("Error: invalid weight")
+    if zone == "a":
+        print(f"your shipping cost is : ${weight * 5}")
+        if zone == "b":
+            print(f"your shipping cost is : ${weight * 7}")
+            
 #Exercise6
-if not ("s1 + s2 > s3" and "s1 + s3 > s2" and "s2 + s3 > s1"):
-    
