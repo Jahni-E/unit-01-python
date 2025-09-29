@@ -15,7 +15,8 @@ if current_price <= target_price:
 
 if current_price >= stop_loss:
     print("Sell")
-current_price = float(input("Enter starting price: "))
+    current_price = float(input("Enter starting price: "))
+
 
 if current_price == 0:
     print("ERROR")
