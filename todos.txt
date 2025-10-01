@@ -1,0 +1,2 @@
+with open("todos.txt") as file:
+t = file.readlines()
