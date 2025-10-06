@@ -16,13 +16,31 @@
 #     else:
 #         print(num, "is odd.")
 
-num = int(input("Enter an integer: "))
+# num = int(input("Enter an integer: "))
 
-if num < -1:
-  print("No negative numbers.")
-else:
-  result = 1
-  for i in range(1, num):
-    result *= i   
+# if num < -1:
+#   print("No negative numbers.")
+# else:
+#   result = 1
+#   for i in range(1, num):
+#     result *= i   
 
-  print("Factorial of " + num + "is" + result)
+#   print("Factorial of " + num + "is" + result)
+
+attempts = 0
+correct_password = "secret"
+
+while True:
+    password = input("Enter your password: ")
+
+    attempts += 1
+
+    if password == correct_password:
+        print("Correct password!")
+    else:
+        print("Incorrect password")
+
+    if attempts > 3:
+        print("Too many attempts")
+        break
+
