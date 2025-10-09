@@ -27,20 +27,20 @@
 
 #   print("Factorial of " + num + "is" + result)
 
-attempts = 0
-correct_password = "secret"
+# attempts = 0
+# correct_password = "secret"
 
-while True:
-    password = input("Enter your password: ")
+# while True:
+#     password = input("Enter your password: ")
 
-    attempts += 1
+#     attempts += 1
 
-    if password == correct_password:
-        print("Correct password!")
-    else:
-        print("Incorrect password")
+#     if password == correct_password:
+#         print("Correct password!")
+#     else:
+#         print("Incorrect password")
 
-    if attempts > 3:
-        print("Too many attempts")
-        break
+#     if attempts > 3:
+#         print("Too many attempts")
+#         break
 
