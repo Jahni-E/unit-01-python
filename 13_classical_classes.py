@@ -28,5 +28,3 @@ class Cat(Animal):
 my_cat = Cat()
 my_cat.speak()
 #Task 3
-class BankAccount:
-  
